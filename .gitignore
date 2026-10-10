@@ -1,0 +1,12 @@
+# VS Code workspace databases
+.vscode/
+**/.vscode/
+
+# ROS 2 generated files
+build/
+install/
+log/
+
+# Python generated files
+__pycache__/
+*.pyc

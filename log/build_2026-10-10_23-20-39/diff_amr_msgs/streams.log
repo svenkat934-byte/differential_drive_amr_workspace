@@ -1,0 +1,227 @@
+[0.045s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_msgs -- -j12 -l12
+[0.346s] [  1%] Built target diff_amr_msgs__rosidl_generator_type_description
+[0.347s] [  3%] Built target diff_amr_msgs__rs
+[0.347s] [  3%] Built target ament_cmake_python_copy_diff_amr_msgs
+[0.347s] [  5%] Built target diff_amr_msgs__cpp
+[0.347s] [ 25%] Built target diff_amr_msgs__rosidl_generator_c
+[0.347s] [ 34%] Built target diff_amr_msgs__rosidl_typesupport_c
+[0.347s] [ 50%] Built target diff_amr_msgs__rosidl_typesupport_fastrtps_c
+[0.347s] [ 52%] Built target diff_amr_msgs__rosidl_typesupport_introspection_c
+[0.348s] [ 61%] Built target diff_amr_msgs__rosidl_typesupport_fastrtps_cpp
+[0.348s] [ 70%] Built target diff_amr_msgs__rosidl_typesupport_cpp
+[0.348s] [ 80%] Built target diff_amr_msgs__rosidl_typesupport_introspection_cpp
+[0.348s] [ 80%] Built target diff_amr_msgs
+[0.348s] [ 81%] Built target diff_amr_msgs__py
+[0.348s] [ 89%] Built target diff_amr_msgs__rosidl_generator_py
+[0.348s] [100%] Built target diff_amr_msgs_s__rosidl_typesupport_introspection_c
+[0.348s] [100%] Built target diff_amr_msgs_s__rosidl_typesupport_fastrtps_c
+[0.348s] [100%] Built target diff_amr_msgs_s__rosidl_typesupport_c
+[0.404s] running egg_info
+[0.443s] writing diff_amr_msgs.egg-info/PKG-INFO
+[0.443s] writing dependency_links to diff_amr_msgs.egg-info/dependency_links.txt
+[0.444s] writing top-level names to diff_amr_msgs.egg-info/top_level.txt
+[0.529s] reading manifest file 'diff_amr_msgs.egg-info/SOURCES.txt'
+[0.531s] writing manifest file 'diff_amr_msgs.egg-info/SOURCES.txt'
+[0.579s] [100%] Built target ament_cmake_python_build_diff_amr_msgs_egg
+[0.593s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_msgs -- -j12 -l12
+[0.594s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_msgs
+[0.605s] -- Install configuration: ""
+[0.606s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/ament_index/resource_index/rosidl_interfaces/diff_amr_msgs
+[0.606s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/action/Fibonacci.json
+[0.606s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/srv/AddTwoInts.json
+[0.606s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/srv/GetTransform.json
+[0.606s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs
+[0.607s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action
+[0.607s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail
+[0.608s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__functions.h
+[0.608s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__type_support.h
+[0.608s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__description.c
+[0.608s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__struct.h
+[0.608s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__functions.c
+[0.609s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__type_support.c
+[0.609s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/fibonacci.h
+[0.609s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg
+[0.609s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.609s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv
+[0.609s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail
+[0.609s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__functions.h
+[0.610s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__struct.h
+[0.610s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__functions.h
+[0.610s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__type_support.h
+[0.611s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__struct.h
+[0.611s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__type_support.c
+[0.611s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__description.c
+[0.611s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__type_support.c
+[0.611s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__functions.c
+[0.611s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__functions.c
+[0.611s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__type_support.h
+[0.612s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__description.c
+[0.612s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/get_transform.h
+[0.612s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/add_two_ints.h
+[0.612s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/library_path.sh
+[0.612s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/library_path.dsv
+[0.612s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_generator_c.so
+[0.612s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[0.613s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_typesupport_fastrtps_c.so
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__type_support.hpp
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__struct.hpp
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__builder.hpp
+[0.614s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__traits.hpp
+[0.615s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/fibonacci.hpp
+[0.615s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg
+[0.615s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.615s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv
+[0.615s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__type_support.hpp
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__struct.hpp
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__builder.hpp
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__builder.hpp
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__type_support.hpp
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__traits.hpp
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__struct.hpp
+[0.616s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__traits.hpp
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/add_two_ints.hpp
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/get_transform.hpp
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/dds_fastrtps
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[0.617s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg
+[0.618s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.618s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv
+[0.618s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail
+[0.618s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/dds_fastrtps
+[0.618s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[0.618s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.618s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__type_support.c
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv
+[0.619s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail
+[0.620s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__type_support.c
+[0.620s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[0.620s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__type_support.c
+[0.620s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[0.620s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_typesupport_introspection_c.so
+[0.620s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_typesupport_c.so
+[0.620s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/action/detail/fibonacci__type_support.cpp
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.621s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/add_two_ints__type_support.cpp
+[0.622s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__type_support.cpp
+[0.622s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/include/diff_amr_msgs/diff_amr_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[0.622s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_typesupport_introspection_cpp.so
+[0.622s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_typesupport_cpp.so
+[0.622s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/pythonpath.sh
+[0.622s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/pythonpath.dsv
+[0.622s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs-0.0.0-py3.12.egg-info
+[0.622s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.623s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.623s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[0.623s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[0.623s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs
+[0.623s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/_diff_amr_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.623s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/_diff_amr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.623s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/__init__.py
+[0.623s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/action
+[0.624s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/action/_fibonacci_s.c
+[0.624s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/action/__init__.py
+[0.624s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/action/_fibonacci.py
+[0.624s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/diff_amr_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.624s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/srv
+[0.624s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/srv/__init__.py
+[0.624s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/srv/_get_transform_s.c
+[0.625s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/srv/_add_two_ints_s.c
+[0.625s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/srv/_add_two_ints.py
+[0.625s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/srv/_get_transform.py
+[0.625s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/diff_amr_msgs_s__rosidl_typesupport_introspection_c.so
+[0.625s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/_diff_amr_msgs_s.ep.rosidl_typesupport_c.c
+[0.625s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/diff_amr_msgs_s__rosidl_typesupport_c.so
+[0.691s] Listing '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs'...
+[0.692s] Listing '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/action'...
+[0.692s] Listing '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/srv'...
+[0.715s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/diff_amr_msgs_s__rosidl_typesupport_fastrtps_c.so
+[0.715s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/diff_amr_msgs_s__rosidl_typesupport_introspection_c.so
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages/diff_amr_msgs/diff_amr_msgs_s__rosidl_typesupport_c.so
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/libdiff_amr_msgs__rosidl_generator_py.so
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/build.rs
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src/lib.rs
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src/action.rs
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src/action
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src/action/rmw.rs
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src/srv
+[0.720s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src/srv/rmw.rs
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/src/srv.rs
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/rust/Cargo.toml
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/action/Fibonacci.idl
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/srv/AddTwoInts.idl
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/srv/GetTransform.idl
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/action/Fibonacci.action
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/srv/AddTwoInts.srv
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/srv/GetTransform.srv
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/ament_index/resource_index/package_run_dependencies/diff_amr_msgs
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/ament_index/resource_index/parent_prefix_path/diff_amr_msgs
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/ament_prefix_path.sh
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/ament_prefix_path.dsv
+[0.721s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/path.sh
+[0.722s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/environment/path.dsv
+[0.722s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/local_setup.bash
+[0.722s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/local_setup.sh
+[0.722s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/local_setup.zsh
+[0.722s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/local_setup.dsv
+[0.722s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.dsv
+[0.722s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/ament_index/resource_index/packages/diff_amr_msgs
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_generator_cExport.cmake
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_generator_cppExport.cmake
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.725s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.726s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.727s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_cExport.cmake
+[0.727s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_cppExport.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_generator_pyExport.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/export_diff_amr_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/rosidl_cmake-extras.cmake
+[0.728s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.730s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.732s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.732s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.732s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.732s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.732s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[0.732s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgsConfig.cmake
+[0.733s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/cmake/diff_amr_msgsConfig-version.cmake
+[0.733s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.xml
+[0.756s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_msgs

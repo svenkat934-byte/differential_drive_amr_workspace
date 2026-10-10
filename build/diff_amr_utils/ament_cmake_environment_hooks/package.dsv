@@ -1,0 +1,4 @@
+source;share/diff_amr_utils/local_setup.bash
+source;share/diff_amr_utils/local_setup.dsv
+source;share/diff_amr_utils/local_setup.sh
+source;share/diff_amr_utils/local_setup.zsh

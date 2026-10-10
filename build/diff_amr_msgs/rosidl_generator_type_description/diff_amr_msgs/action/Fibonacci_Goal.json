@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "diff_amr_msgs/action/Fibonacci_Goal",
+      "fields": [
+        {
+          "name": "order",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "diff_amr_msgs/action/Fibonacci_Goal",
+      "hash_string": "RIHS01_79da032688a532c72daa2f2c21779cf45af658e7b9a96a3c8926fbae8ce04047"
+    }
+  ]
+}

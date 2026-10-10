@@ -1,0 +1,43 @@
+[0.213s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_planning -- -j12 -l12
+[0.266s] Built target ament_cmake_python_copy_diff_amr_planning
+[0.541s] running egg_info
+[0.542s] writing diff_amr_planning.egg-info/PKG-INFO
+[0.542s] writing dependency_links to diff_amr_planning.egg-info/dependency_links.txt
+[0.542s] writing top-level names to diff_amr_planning.egg-info/top_level.txt
+[0.604s] reading manifest file 'diff_amr_planning.egg-info/SOURCES.txt'
+[0.604s] writing manifest file 'diff_amr_planning.egg-info/SOURCES.txt'
+[0.638s] Built target ament_cmake_python_build_diff_amr_planning_egg
+[0.804s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_planning -- -j12 -l12
+[0.805s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_planning
+[0.811s] -- Install configuration: ""
+[0.811s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/environment/pythonpath.sh
+[0.811s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/environment/pythonpath.dsv
+[0.812s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning-0.0.0-py3.12.egg-info
+[0.812s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.812s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.812s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning-0.0.0-py3.12.egg-info/PKG-INFO
+[0.812s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning-0.0.0-py3.12.egg-info/top_level.txt
+[0.812s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning
+[0.813s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning/__init__.py
+[0.813s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning/dijkstra_planner.py
+[0.813s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning/a_star_planner.py
+[0.843s] Listing '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages/diff_amr_planning'...
+[0.849s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/global_planner_plugins.xml
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/diff_amr_planning/a_star_planner.py
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/diff_amr_planning/dijkstra_planner.py
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/ament_index/resource_index/package_run_dependencies/diff_amr_planning
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/ament_index/resource_index/parent_prefix_path/diff_amr_planning
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/environment/ament_prefix_path.sh
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/environment/ament_prefix_path.dsv
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/environment/path.sh
+[0.851s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/environment/path.dsv
+[0.854s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/local_setup.bash
+[0.854s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/local_setup.sh
+[0.854s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/local_setup.zsh
+[0.855s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/local_setup.dsv
+[0.855s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.dsv
+[0.855s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/ament_index/resource_index/packages/diff_amr_planning
+[0.855s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/cmake/diff_amr_planningConfig.cmake
+[0.855s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/cmake/diff_amr_planningConfig-version.cmake
+[0.855s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.xml
+[0.868s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_planning

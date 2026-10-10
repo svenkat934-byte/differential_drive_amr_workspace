@@ -1,0 +1,32 @@
+[1.022s] Invoking command in '/home/saivenkat/diff_amr_ws/src/diff_amr_py_examples': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_amr_py_examples build --build-base /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/build install --record /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/install.log --install-scripts $base/lib/diff_amr_py_examples --single-version-externally-managed install_data
+[1.345s] running egg_info
+[1.367s] writing ../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info/PKG-INFO
+[1.376s] writing dependency_links to ../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info/dependency_links.txt
+[1.376s] writing entry points to ../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info/entry_points.txt
+[1.376s] writing requirements to ../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info/requires.txt
+[1.376s] writing top-level names to ../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info/top_level.txt
+[1.423s] reading manifest file '../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info/SOURCES.txt'
+[1.425s] writing manifest file '../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info/SOURCES.txt'
+[1.425s] running build
+[1.425s] running build_py
+[1.426s] running install
+[1.433s] running install_lib
+[1.459s] running install_data
+[1.459s] running install_egg_info
+[1.487s] removing '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/python3.12/site-packages/diff_amr_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[1.488s] Copying ../../build/diff_amr_py_examples/diff_amr_py_examples.egg-info to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/python3.12/site-packages/diff_amr_py_examples-0.0.0-py3.12.egg-info
+[1.489s] running install_scripts
+[1.646s] Installing simple_action_client script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.654s] Installing simple_action_server script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.654s] Installing simple_lifecycle_node script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.655s] Installing simple_parameter script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.655s] Installing simple_publisher script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.655s] Installing simple_qos_publisher script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.655s] Installing simple_qos_subscriber script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.655s] Installing simple_service_client script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.655s] Installing simple_service_server script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.655s] Installing simple_subscriber script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.656s] Installing simple_tf_kinematics script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.656s] Installing simple_turtlesim_kinematics script to /home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/diff_amr_py_examples
+[1.656s] writing list of installed files to '/home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/install.log'
+[1.694s] Invoked command in '/home/saivenkat/diff_amr_ws/src/diff_amr_py_examples' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_amr_py_examples build --build-base /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/build install --record /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/install.log --install-scripts $base/lib/diff_amr_py_examples --single-version-externally-managed install_data

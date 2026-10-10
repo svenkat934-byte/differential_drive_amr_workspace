@@ -1,0 +1,11 @@
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/uninstall.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/diff_amr_motion_uninstall.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/ament_cmake_python_copy_diff_amr_motion.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/ament_cmake_python_build_diff_amr_motion_egg.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/test.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/edit_cache.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/rebuild_cache.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/list_install_components.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/install.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/install/local.dir
+/home/saivenkat/diff_amr_ws/build/diff_amr_motion/CMakeFiles/install/strip.dir

@@ -1,0 +1,42 @@
+[0.304s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_motion -- -j12 -l12
+[0.381s] Built target ament_cmake_python_copy_diff_amr_motion
+[0.755s] running egg_info
+[0.789s] writing diff_amr_motion.egg-info/PKG-INFO
+[0.789s] writing dependency_links to diff_amr_motion.egg-info/dependency_links.txt
+[0.789s] writing top-level names to diff_amr_motion.egg-info/top_level.txt
+[0.829s] reading manifest file 'diff_amr_motion.egg-info/SOURCES.txt'
+[0.830s] writing manifest file 'diff_amr_motion.egg-info/SOURCES.txt'
+[0.869s] Built target ament_cmake_python_build_diff_amr_motion_egg
+[1.113s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_motion -- -j12 -l12
+[1.114s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_motion
+[1.123s] -- Install configuration: ""
+[1.123s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/pythonpath.sh
+[1.123s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/pythonpath.dsv
+[1.124s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info
+[1.124s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.124s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.124s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/PKG-INFO
+[1.124s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/top_level.txt
+[1.124s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion
+[1.125s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/pure_pursuit.py
+[1.125s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/__init__.py
+[1.125s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/pd_motion_planner.py
+[1.168s] Listing '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion'...
+[1.177s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/diff_amr_motion/pd_motion_planner.py
+[1.177s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/diff_amr_motion/pure_pursuit.py
+[1.177s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/ament_index/resource_index/package_run_dependencies/diff_amr_motion
+[1.177s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/ament_index/resource_index/parent_prefix_path/diff_amr_motion
+[1.177s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/ament_prefix_path.sh
+[1.177s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/ament_prefix_path.dsv
+[1.178s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/path.sh
+[1.178s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/path.dsv
+[1.178s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.bash
+[1.178s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.sh
+[1.178s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.zsh
+[1.178s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.dsv
+[1.178s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.dsv
+[1.179s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/ament_index/resource_index/packages/diff_amr_motion
+[1.179s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/cmake/diff_amr_motionConfig.cmake
+[1.179s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/cmake/diff_amr_motionConfig-version.cmake
+[1.180s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.xml
+[1.184s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_motion

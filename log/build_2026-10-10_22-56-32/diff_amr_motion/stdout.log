@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.12 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.23 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.23 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.23 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.1 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_core: 1.3.13 (/opt/ros/jazzy/share/nav2_core/cmake)
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/saivenkat/diff_amr_ws/build/diff_amr_motion
+Built target ament_cmake_python_copy_diff_amr_motion
+running egg_info
+creating diff_amr_motion.egg-info
+writing diff_amr_motion.egg-info/PKG-INFO
+writing dependency_links to diff_amr_motion.egg-info/dependency_links.txt
+writing top-level names to diff_amr_motion.egg-info/top_level.txt
+writing manifest file 'diff_amr_motion.egg-info/SOURCES.txt'
+reading manifest file 'diff_amr_motion.egg-info/SOURCES.txt'
+writing manifest file 'diff_amr_motion.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_diff_amr_motion_egg
+-- Install configuration: ""
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/pythonpath.sh
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/pythonpath.dsv
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/pure_pursuit.py
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/__init__.py
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/pd_motion_planner.py
+Listing '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion'...
+Compiling '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/__init__.py'...
+Compiling '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/pd_motion_planner.py'...
+Compiling '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages/diff_amr_motion/pure_pursuit.py'...
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/diff_amr_motion/pd_motion_planner.py
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/diff_amr_motion/pure_pursuit.py
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/ament_index/resource_index/package_run_dependencies/diff_amr_motion
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/ament_index/resource_index/parent_prefix_path/diff_amr_motion
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/ament_prefix_path.sh
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/ament_prefix_path.dsv
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/path.sh
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/environment/path.dsv
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.bash
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.sh
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.zsh
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/local_setup.dsv
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.dsv
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/ament_index/resource_index/packages/diff_amr_motion
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/cmake/diff_amr_motionConfig.cmake
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/cmake/diff_amr_motionConfig-version.cmake
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.xml

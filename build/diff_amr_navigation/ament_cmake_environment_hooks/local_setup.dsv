@@ -1,0 +1,3 @@
+source;share/diff_amr_navigation/environment/ament_prefix_path.sh
+source;share/diff_amr_navigation/environment/path.sh
+source;share/diff_amr_navigation/environment/pythonpath.sh

@@ -1,0 +1,8 @@
+{
+  "package_name": "diff_amr_msgs",
+  "non_idl_tuples": [
+    "/home/saivenkat/diff_amr_ws/src/diff_amr_msgs:action/Fibonacci.action",
+    "/home/saivenkat/diff_amr_ws/src/diff_amr_msgs:srv/AddTwoInts.srv",
+    "/home/saivenkat/diff_amr_ws/src/diff_amr_msgs:srv/GetTransform.srv"
+  ]
+}

@@ -1,0 +1,938 @@
+[0.136s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.136s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75ecfc67ef30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75ecfc7a7dd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75ecfc7a7dd0>>)
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.179s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.179s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saivenkat/diff_amr_ws'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_bringup) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_bringup' with type 'ros.ament_cmake' and name 'diff_amr_bringup'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_controller) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_controller' with type 'ros.ament_cmake' and name 'diff_amr_controller'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_description) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_description' with type 'ros.ament_cmake' and name 'diff_amr_description'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_localization) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_localization' with type 'ros.ament_cmake' and name 'diff_amr_localization'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_mapping) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_mapping' with type 'ros.ament_cmake' and name 'diff_amr_mapping'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_media) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_motion) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_motion' with type 'ros.ament_cmake' and name 'diff_amr_motion'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_msgs) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_msgs' with type 'ros.ament_cmake' and name 'diff_amr_msgs'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_navigation) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_navigation' with type 'ros.ament_cmake' and name 'diff_amr_navigation'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_planning) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_planning' with type 'ros.ament_cmake' and name 'diff_amr_planning'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_py_examples) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_py_examples' with type 'ros.ament_python' and name 'diff_amr_py_examples'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_scripts) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_scripts' with type 'ros.ament_python' and name 'diff_amr_scripts'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_utils) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_utils' with type 'ros.ament_cmake' and name 'diff_amr_utils'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/diff_amr_web_control) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diff_amr_web_control' with type 'ros.ament_cmake' and name 'diff_amr_web_control'
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.253s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 435 installed packages in /opt/ros/jazzy
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_motion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_motion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_motion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_motion', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_motion', 'symlink_install': False, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_planning' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_planning' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_planning', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_planning', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_planning', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_scripts' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_scripts' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_scripts', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_scripts', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_utils', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_utils', 'symlink_install': False, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_web_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_web_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_web_control', 'symlink_install': False, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_controller', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_controller', 'symlink_install': False, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_localization', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_localization', 'symlink_install': False, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'cmake_target' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.323s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.323s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_description', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_description', 'symlink_install': False, 'test_result_base': None}
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'cmake_target' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.324s] Level 5:colcon.colcon_core.verb:set package 'diff_amr_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.324s] DEBUG:colcon.colcon_core.verb:Building package 'diff_amr_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saivenkat/diff_amr_ws/build/diff_amr_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup', 'merge_install': False, 'path': '/home/saivenkat/diff_amr_ws/src/diff_amr_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.324s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_web_control' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_web_control'
+[0.330s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_mapping' with build type 'ament_cmake'
+[0.336s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_mapping'
+[0.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.340s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_msgs' with build type 'ament_cmake'
+[0.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_msgs'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_navigation' with build type 'ament_cmake'
+[0.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_navigation'
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_scripts' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_scripts', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/hook/ament_prefix_path.ps1'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/hook/ament_prefix_path.dsv'
+[0.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/hook/ament_prefix_path.sh'
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_motion' with build type 'ament_cmake'
+[0.356s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_motion'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_planning' with build type 'ament_cmake'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_planning'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_utils' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_utils'
+[0.365s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.365s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_web_control -- -j12 -l12
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_mapping -- -j12 -l12
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_msgs -- -j12 -l12
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_navigation -- -j12 -l12
+[0.650s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saivenkat/diff_amr_ws/src/diff_amr_scripts'
+[0.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_motion -- -j12 -l12
+[0.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_planning -- -j12 -l12
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_utils -- -j12 -l12
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_web_control -- -j12 -l12
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_web_control
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_mapping -- -j12 -l12
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_mapping
+[0.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_web_control)
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_web_control
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control' for CMake module files
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control' for CMake config files
+[0.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_web_control', 'cmake_prefix_path')
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/hook/cmake_prefix_path.ps1'
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/hook/cmake_prefix_path.dsv'
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/hook/cmake_prefix_path.sh'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/bin'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/lib/pkgconfig/diff_amr_web_control.pc'
+[0.727s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/lib/python3.12/site-packages'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/bin'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.ps1'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.sh'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.bash'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.zsh'
+[0.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/colcon-core/packages/diff_amr_web_control)
+[0.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_web_control)
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control' for CMake module files
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control' for CMake config files
+[0.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_web_control', 'cmake_prefix_path')
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/hook/cmake_prefix_path.ps1'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/hook/cmake_prefix_path.sh'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/bin'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/lib/pkgconfig/diff_amr_web_control.pc'
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/lib/python3.12/site-packages'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/bin'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.sh'
+[0.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.bash'
+[0.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.zsh'
+[0.747s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/colcon-core/packages/diff_amr_web_control)
+[0.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_mapping)
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping' for CMake module files
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping' for CMake config files
+[0.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_mapping
+[0.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_mapping', 'cmake_prefix_path')
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/hook/cmake_prefix_path.ps1'
+[0.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/hook/cmake_prefix_path.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/hook/cmake_prefix_path.sh'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/lib'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/bin'
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/lib/pkgconfig/diff_amr_mapping.pc'
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/lib/python3.12/site-packages'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/bin'
+[0.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.dsv'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.sh'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.bash'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.zsh'
+[0.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/colcon-core/packages/diff_amr_mapping)
+[0.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_mapping)
+[0.760s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping' for CMake module files
+[0.761s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping' for CMake config files
+[0.762s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_mapping', 'cmake_prefix_path')
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/hook/cmake_prefix_path.ps1'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/hook/cmake_prefix_path.dsv'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/hook/cmake_prefix_path.sh'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/lib'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/bin'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/lib/pkgconfig/diff_amr_mapping.pc'
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/lib/python3.12/site-packages'
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/bin'
+[0.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.ps1'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.dsv'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.bash'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.zsh'
+[0.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/colcon-core/packages/diff_amr_mapping)
+[0.769s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_controller' with build type 'ament_cmake'
+[0.769s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_controller'
+[0.770s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.770s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_localization' with build type 'ament_cmake'
+[0.779s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_localization'
+[0.779s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.779s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_controller': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_controller -- -j12 -l12
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_localization': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_localization -- -j12 -l12
+[0.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_controller' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_controller -- -j12 -l12
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_controller': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_controller
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_localization' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_localization -- -j12 -l12
+[0.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_localization': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_localization
+[0.895s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_controller)
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller' for CMake module files
+[0.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_controller' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_controller
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller' for CMake config files
+[0.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_controller', 'cmake_prefix_path')
+[0.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/hook/cmake_prefix_path.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/hook/cmake_prefix_path.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/hook/cmake_prefix_path.sh'
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib'
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/bin'
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib/pkgconfig/diff_amr_controller.pc'
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib/python3.12/site-packages'
+[0.902s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/bin'
+[0.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.dsv'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.sh'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.bash'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.zsh'
+[0.905s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/colcon-core/packages/diff_amr_controller)
+[0.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_controller)
+[0.906s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller' for CMake module files
+[0.907s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller' for CMake config files
+[0.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_controller', 'cmake_prefix_path')
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/hook/cmake_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/hook/cmake_prefix_path.dsv'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/hook/cmake_prefix_path.sh'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/bin'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib/pkgconfig/diff_amr_controller.pc'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib/python3.12/site-packages'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/bin'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.ps1'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.dsv'
+[0.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.sh'
+[0.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.bash'
+[0.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.zsh'
+[0.916s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/colcon-core/packages/diff_amr_controller)
+[0.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_description' with build type 'ament_cmake'
+[0.917s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_description'
+[0.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.923s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_localization)
+[0.923s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization' for CMake module files
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_localization' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_localization
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization' for CMake config files
+[0.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_localization', 'cmake_prefix_path')
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/hook/cmake_prefix_path.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/hook/cmake_prefix_path.sh'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/lib'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/bin'
+[0.928s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/lib/pkgconfig/diff_amr_localization.pc'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/lib/python3.12/site-packages'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/bin'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.ps1'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.sh'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.bash'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.zsh'
+[0.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/colcon-core/packages/diff_amr_localization)
+[0.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_localization)
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization' for CMake module files
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization' for CMake config files
+[0.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_localization', 'cmake_prefix_path')
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/hook/cmake_prefix_path.ps1'
+[0.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/hook/cmake_prefix_path.dsv'
+[0.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/hook/cmake_prefix_path.sh'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/lib'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/bin'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/lib/pkgconfig/diff_amr_localization.pc'
+[0.934s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/lib/python3.12/site-packages'
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/bin'
+[0.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.ps1'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.dsv'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.sh'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.bash'
+[0.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/diff_amr_localization/package.zsh'
+[0.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_localization/share/colcon-core/packages/diff_amr_localization)
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_navigation -- -j12 -l12
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_navigation
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_msgs -- -j12 -l12
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_msgs
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_description': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_description -- -j12 -l12
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_description' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_description -- -j12 -l12
+[1.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_description': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_description
+[1.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_navigation)
+[1.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_navigation
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation' for CMake module files
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation' for CMake config files
+[1.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_navigation', 'cmake_prefix_path')
+[1.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/cmake_prefix_path.ps1'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/cmake_prefix_path.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/cmake_prefix_path.sh'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/bin'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/pkgconfig/diff_amr_navigation.pc'
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/python3.12/site-packages'
+[1.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_navigation', 'pythonpath')
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/pythonpath.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/pythonpath.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/pythonpath.sh'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/bin'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.ps1'
+[1.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.dsv'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.sh'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.bash'
+[1.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.zsh'
+[1.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/colcon-core/packages/diff_amr_navigation)
+[1.040s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_navigation)
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation' for CMake module files
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation' for CMake config files
+[1.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_navigation', 'cmake_prefix_path')
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/cmake_prefix_path.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/cmake_prefix_path.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/cmake_prefix_path.sh'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/bin'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/pkgconfig/diff_amr_navigation.pc'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/python3.12/site-packages'
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_navigation', 'pythonpath')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/pythonpath.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/pythonpath.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/hook/pythonpath.sh'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/bin'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.sh'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.bash'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/diff_amr_navigation/package.zsh'
+[1.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/share/colcon-core/packages/diff_amr_navigation)
+[1.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_msgs)
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs' for CMake module files
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_msgs
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs' for CMake config files
+[1.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_msgs', 'cmake_prefix_path')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/cmake_prefix_path.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/cmake_prefix_path.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/cmake_prefix_path.sh'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib'
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_msgs', 'ld_library_path_lib')
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/ld_library_path_lib.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/ld_library_path_lib.dsv'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/ld_library_path_lib.sh'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/bin'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/pkgconfig/diff_amr_msgs.pc'
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages'
+[1.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_msgs', 'pythonpath')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/pythonpath.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/pythonpath.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/pythonpath.sh'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/bin'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.dsv'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.sh'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.bash'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.zsh'
+[1.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/colcon-core/packages/diff_amr_msgs)
+[1.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_msgs)
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs' for CMake module files
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs' for CMake config files
+[1.150s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_msgs', 'cmake_prefix_path')
+[1.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/cmake_prefix_path.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/cmake_prefix_path.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/cmake_prefix_path.sh'
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib'
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_msgs', 'ld_library_path_lib')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/ld_library_path_lib.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/ld_library_path_lib.dsv'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/ld_library_path_lib.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/bin'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/pkgconfig/diff_amr_msgs.pc'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_msgs', 'pythonpath')
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/pythonpath.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/pythonpath.dsv'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/hook/pythonpath.sh'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/bin'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.sh'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.bash'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/diff_amr_msgs/package.zsh'
+[1.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/share/colcon-core/packages/diff_amr_msgs)
+[1.159s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_py_examples' with build type 'ament_python'
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_py_examples', 'ament_prefix_path')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/hook/ament_prefix_path.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/hook/ament_prefix_path.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/hook/ament_prefix_path.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_description)
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description' for CMake module files
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_description' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_description
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description' for CMake config files
+[1.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_description', 'cmake_prefix_path')
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/hook/cmake_prefix_path.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/hook/cmake_prefix_path.dsv'
+[1.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/hook/cmake_prefix_path.sh'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/bin'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/lib/pkgconfig/diff_amr_description.pc'
+[1.178s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/lib/python3.12/site-packages'
+[1.179s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/bin'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.sh'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.zsh'
+[1.183s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/colcon-core/packages/diff_amr_description)
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_description)
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description' for CMake module files
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description' for CMake config files
+[1.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_description', 'cmake_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/hook/cmake_prefix_path.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/hook/cmake_prefix_path.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/hook/cmake_prefix_path.sh'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/bin'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/lib/pkgconfig/diff_amr_description.pc'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/lib/python3.12/site-packages'
+[1.189s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_description/bin'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.dsv'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.sh'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.bash'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/diff_amr_description/package.zsh'
+[1.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_description/share/colcon-core/packages/diff_amr_description)
+[1.464s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/saivenkat/diff_amr_ws/src/diff_amr_py_examples'
+[1.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_motion -- -j12 -l12
+[1.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_motion
+[1.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_planning -- -j12 -l12
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_planning
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_utils -- -j12 -l12
+[1.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_utils
+[1.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_motion)
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion' for CMake module files
+[1.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_motion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_motion
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion' for CMake config files
+[1.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_motion', 'cmake_prefix_path')
+[1.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/cmake_prefix_path.ps1'
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/cmake_prefix_path.dsv'
+[1.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/cmake_prefix_path.sh'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/bin'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/pkgconfig/diff_amr_motion.pc'
+[1.543s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages'
+[1.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_motion', 'pythonpath')
+[1.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/pythonpath.ps1'
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/pythonpath.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/pythonpath.sh'
+[1.545s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/bin'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.ps1'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.dsv'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.sh'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.bash'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.zsh'
+[1.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/colcon-core/packages/diff_amr_motion)
+[1.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_motion)
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion' for CMake module files
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion' for CMake config files
+[1.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_motion', 'cmake_prefix_path')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/cmake_prefix_path.ps1'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/cmake_prefix_path.dsv'
+[1.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/cmake_prefix_path.sh'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/bin'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/pkgconfig/diff_amr_motion.pc'
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/lib/python3.12/site-packages'
+[1.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_motion', 'pythonpath')
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/pythonpath.ps1'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/pythonpath.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/hook/pythonpath.sh'
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/bin'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.dsv'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.sh'
+[1.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.bash'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/diff_amr_motion/package.zsh'
+[1.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_motion/share/colcon-core/packages/diff_amr_motion)
+[1.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_utils)
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils' for CMake module files
+[1.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_utils
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils' for CMake config files
+[1.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_utils', 'cmake_prefix_path')
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/cmake_prefix_path.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/cmake_prefix_path.dsv'
+[1.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/cmake_prefix_path.sh'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/bin'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/pkgconfig/diff_amr_utils.pc'
+[1.560s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages'
+[1.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_utils', 'pythonpath')
+[1.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/pythonpath.ps1'
+[1.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/pythonpath.dsv'
+[1.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/pythonpath.sh'
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/bin'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.ps1'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.sh'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.bash'
+[1.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.zsh'
+[1.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/colcon-core/packages/diff_amr_utils)
+[1.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_utils)
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils' for CMake module files
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils' for CMake config files
+[1.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_utils', 'cmake_prefix_path')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/cmake_prefix_path.ps1'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/cmake_prefix_path.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/cmake_prefix_path.sh'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/bin'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/pkgconfig/diff_amr_utils.pc'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages'
+[1.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_utils', 'pythonpath')
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/pythonpath.ps1'
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/pythonpath.dsv'
+[1.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/hook/pythonpath.sh'
+[1.569s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/bin'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.ps1'
+[1.570s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.dsv'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.sh'
+[1.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.bash'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.zsh'
+[1.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/colcon-core/packages/diff_amr_utils)
+[1.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_planning)
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning' for CMake module files
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_planning
+[1.574s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning' for CMake config files
+[1.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_planning', 'cmake_prefix_path')
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/cmake_prefix_path.ps1'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/cmake_prefix_path.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/cmake_prefix_path.sh'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/bin'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/pkgconfig/diff_amr_planning.pc'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages'
+[1.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_planning', 'pythonpath')
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/pythonpath.ps1'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/pythonpath.dsv'
+[1.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/pythonpath.sh'
+[1.578s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/bin'
+[1.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.ps1'
+[1.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.dsv'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.sh'
+[1.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.bash'
+[1.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.zsh'
+[1.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/colcon-core/packages/diff_amr_planning)
+[1.583s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_planning)
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning' for CMake module files
+[1.584s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning' for CMake config files
+[1.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_planning', 'cmake_prefix_path')
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/cmake_prefix_path.ps1'
+[1.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/cmake_prefix_path.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/cmake_prefix_path.sh'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/bin'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/pkgconfig/diff_amr_planning.pc'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/lib/python3.12/site-packages'
+[1.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_planning', 'pythonpath')
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/pythonpath.ps1'
+[1.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/pythonpath.dsv'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/hook/pythonpath.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/bin'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/diff_amr_planning/package.zsh'
+[1.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_planning/share/colcon-core/packages/diff_amr_planning)
+[1.649s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, alias, init_catalog, bdist_egg, install_lib, easy_install, build_ext, egg_info, build_scripts, saveopts, test, build, register, install_data, bdist_dumb, setopt, install_headers, install_scripts, symlink_data, develop, update_catalog, sdist, upload_docs, rotate, bdist_rpm, dist_info, editable_wheel, build_py, compile_catalog, build_clib, bdist, install_egg_info, extract_messages, bdist_wheel, clean, check, upload
+[1.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/src/diff_amr_scripts': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saivenkat/diff_amr_ws/build/diff_amr_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_amr_scripts build --build-base /home/saivenkat/diff_amr_ws/build/diff_amr_scripts/build install --record /home/saivenkat/diff_amr_ws/build/diff_amr_scripts/install.log --install-scripts $base/lib/diff_amr_scripts --single-version-externally-managed install_data
+[2.181s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install, alias, init_catalog, bdist_egg, install_lib, easy_install, build_ext, egg_info, build_scripts, saveopts, test, build, register, install_data, bdist_dumb, setopt, install_headers, install_scripts, symlink_data, develop, update_catalog, sdist, upload_docs, rotate, bdist_rpm, dist_info, editable_wheel, build_py, compile_catalog, build_clib, bdist, install_egg_info, extract_messages, bdist_wheel, clean, check, upload
+[2.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/src/diff_amr_py_examples': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_amr_py_examples build --build-base /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/build install --record /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/install.log --install-scripts $base/lib/diff_amr_py_examples --single-version-externally-managed install_data
+[2.283s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts' for CMake module files
+[2.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/src/diff_amr_scripts' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saivenkat/diff_amr_ws/build/diff_amr_scripts/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_amr_scripts build --build-base /home/saivenkat/diff_amr_ws/build/diff_amr_scripts/build install --record /home/saivenkat/diff_amr_ws/build/diff_amr_scripts/install.log --install-scripts $base/lib/diff_amr_scripts --single-version-externally-managed install_data
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts' for CMake config files
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/bin'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/pkgconfig/diff_amr_scripts.pc'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/python3.12/site-packages'
+[2.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_scripts', 'pythonpath')
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/hook/pythonpath.ps1'
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/hook/pythonpath.dsv'
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/hook/pythonpath.sh'
+[2.287s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/bin'
+[2.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_scripts)
+[2.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/package.ps1'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/package.dsv'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/package.sh'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/package.bash'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/diff_amr_scripts/package.zsh'
+[2.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/share/colcon-core/packages/diff_amr_scripts)
+[2.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saivenkat/diff_amr_ws/src/diff_amr_bringup' with build type 'ament_cmake'
+[2.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saivenkat/diff_amr_ws/src/diff_amr_bringup'
+[2.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_bringup': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_bringup -- -j12 -l12
+[2.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_bringup' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_bringup -- -j12 -l12
+[2.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_bringup': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_bringup
+[2.365s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_bringup)
+[2.365s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup' for CMake module files
+[2.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_bringup' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_description:/home/saivenkat/diff_amr_ws/install/diff_amr_localization:/home/saivenkat/diff_amr_ws/install/diff_amr_controller:/home/saivenkat/diff_amr_ws/install/diff_amr_web_control:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation:/home/saivenkat/diff_amr_ws/install/diff_amr_mapping:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/saivenkat/diff_amr_ws/install/diff_amr_scripts/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_bringup
+[2.366s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup' for CMake config files
+[2.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_bringup', 'cmake_prefix_path')
+[2.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/hook/cmake_prefix_path.ps1'
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/hook/cmake_prefix_path.dsv'
+[2.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/hook/cmake_prefix_path.sh'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/bin'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/lib/pkgconfig/diff_amr_bringup.pc'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/lib/python3.12/site-packages'
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/bin'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.ps1'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.dsv'
+[2.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.sh'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.bash'
+[2.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.zsh'
+[2.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/colcon-core/packages/diff_amr_bringup)
+[2.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_bringup)
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup' for CMake module files
+[2.371s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup' for CMake config files
+[2.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_bringup', 'cmake_prefix_path')
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/hook/cmake_prefix_path.ps1'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/hook/cmake_prefix_path.dsv'
+[2.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/hook/cmake_prefix_path.sh'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/bin'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/lib/pkgconfig/diff_amr_bringup.pc'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/lib/python3.12/site-packages'
+[2.373s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/bin'
+[2.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.ps1'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.dsv'
+[2.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.sh'
+[2.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.bash'
+[2.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/diff_amr_bringup/package.zsh'
+[2.375s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_bringup/share/colcon-core/packages/diff_amr_bringup)
+[2.854s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples' for CMake module files
+[2.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saivenkat/diff_amr_ws/src/diff_amr_py_examples' returned '0': AMENT_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/python3.12/site-packages:/home/saivenkat/diff_amr_ws/install/diff_amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/diff_amr_py_examples build --build-base /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/build install --record /home/saivenkat/diff_amr_ws/build/diff_amr_py_examples/install.log --install-scripts $base/lib/diff_amr_py_examples --single-version-externally-managed install_data
+[2.855s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples' for CMake config files
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/bin'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/pkgconfig/diff_amr_py_examples.pc'
+[2.856s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/lib/python3.12/site-packages'
+[2.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('diff_amr_py_examples', 'pythonpath')
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/hook/pythonpath.ps1'
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/hook/pythonpath.dsv'
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/hook/pythonpath.sh'
+[2.858s] Level 1:colcon.colcon_core.environment:checking '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/bin'
+[2.858s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diff_amr_py_examples)
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/package.ps1'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/package.dsv'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/package.sh'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/package.bash'
+[2.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/diff_amr_py_examples/package.zsh'
+[2.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples/share/colcon-core/packages/diff_amr_py_examples)
+[2.861s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.861s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.861s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.861s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.871s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.871s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.871s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.913s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saivenkat/diff_amr_ws/install/local_setup.ps1'
+[2.916s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saivenkat/diff_amr_ws/install/_local_setup_util_ps1.py'
+[2.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saivenkat/diff_amr_ws/install/setup.ps1'
+[2.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saivenkat/diff_amr_ws/install/local_setup.sh'
+[2.921s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saivenkat/diff_amr_ws/install/_local_setup_util_sh.py'
+[2.922s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saivenkat/diff_amr_ws/install/setup.sh'
+[2.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saivenkat/diff_amr_ws/install/local_setup.bash'
+[2.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saivenkat/diff_amr_ws/install/setup.bash'
+[2.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saivenkat/diff_amr_ws/install/local_setup.zsh'
+[2.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saivenkat/diff_amr_ws/install/setup.zsh'

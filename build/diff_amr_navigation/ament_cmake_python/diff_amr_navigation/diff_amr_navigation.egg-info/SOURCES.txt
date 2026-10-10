@@ -1,0 +1,7 @@
+setup.py
+diff_amr_navigation/__init__.py
+diff_amr_navigation/waypoint_following.py
+diff_amr_navigation.egg-info/PKG-INFO
+diff_amr_navigation.egg-info/SOURCES.txt
+diff_amr_navigation.egg-info/dependency_links.txt
+diff_amr_navigation.egg-info/top_level.txt

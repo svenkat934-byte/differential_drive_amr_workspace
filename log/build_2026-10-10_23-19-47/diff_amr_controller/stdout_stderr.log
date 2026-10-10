@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/launch
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/launch/web_control.launch.py
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/launch/controller.launch.py
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/config
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/config/twist_mux_topics.yaml
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/config/twist_mux_locks.yaml
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/config/diff_amr_controllers.yaml
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib/diff_amr_controller/simple_controller.py
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib/diff_amr_controller/noisy_controller.py
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/lib/diff_amr_controller/twist_relay.py
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/ament_index/resource_index/package_run_dependencies/diff_amr_controller
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/ament_index/resource_index/parent_prefix_path/diff_amr_controller
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/environment/path.sh
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/environment/path.dsv
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/local_setup.bash
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/local_setup.sh
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/local_setup.zsh
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/local_setup.dsv
+-- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.dsv
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/ament_index/resource_index/packages/diff_amr_controller
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/cmake/diff_amr_controllerConfig.cmake
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/cmake/diff_amr_controllerConfig-version.cmake
+-- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_controller/share/diff_amr_controller/package.xml

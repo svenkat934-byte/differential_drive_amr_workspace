@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/jazzy/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_bringup/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_controller/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_description/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_localization/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_mapping/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_motion/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_msgs/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_navigation/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_planning/include/**",
+        "/home/saivenkat/diff_amr_ws/src/diff_amr_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

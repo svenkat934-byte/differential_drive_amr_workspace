@@ -1,0 +1,13 @@
+[console_scripts]
+simple_action_client = diff_amr_py_examples.simple_action_client:main
+simple_action_server = diff_amr_py_examples.simple_action_server:main
+simple_lifecycle_node = diff_amr_py_examples.simple_lifecycle_node:main
+simple_parameter = diff_amr_py_examples.simple_parameter:main
+simple_publisher = diff_amr_py_examples.simple_publisher:main
+simple_qos_publisher = diff_amr_py_examples.simple_qos_publisher:main
+simple_qos_subscriber = diff_amr_py_examples.simple_qos_subscriber:main
+simple_service_client = diff_amr_py_examples.simple_service_client:main
+simple_service_server = diff_amr_py_examples.simple_service_server:main
+simple_subscriber = diff_amr_py_examples.simple_subscriber:main
+simple_tf_kinematics = diff_amr_py_examples.simple_tf_kinematics:main
+simple_turtlesim_kinematics = diff_amr_py_examples.simple_turtlesim_kinematics:main

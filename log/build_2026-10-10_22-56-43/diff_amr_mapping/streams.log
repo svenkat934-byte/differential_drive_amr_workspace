@@ -1,0 +1,37 @@
+[0.028s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_mapping -- -j12 -l12
+[0.259s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_mapping -- -j12 -l12
+[0.261s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_mapping
+[0.270s] -- Install configuration: ""
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/config
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/config/slam_toolbox.yaml
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/launch
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/launch/slam.launch.py
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/small_house
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/small_house/map.pgm
+[0.271s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/small_house/map.yaml
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/myroom
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/myroom/map.pgm
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/myroom/map.yaml
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/small_warehouse
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/small_warehouse/map.pgm
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/maps/small_warehouse/map.yaml
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/rviz
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/rviz/slam.rviz
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/lib/diff_amr_mapping/mapping_with_known_poses.py
+[0.272s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/ament_index/resource_index/package_run_dependencies/diff_amr_mapping
+[0.273s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/ament_index/resource_index/parent_prefix_path/diff_amr_mapping
+[0.273s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/environment/ament_prefix_path.sh
+[0.273s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/environment/ament_prefix_path.dsv
+[0.273s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/environment/path.sh
+[0.273s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/environment/path.dsv
+[0.273s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/local_setup.bash
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/local_setup.sh
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/local_setup.zsh
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/local_setup.dsv
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.dsv
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/ament_index/resource_index/packages/diff_amr_mapping
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/cmake/diff_amr_mappingConfig.cmake
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/cmake/diff_amr_mappingConfig-version.cmake
+[0.274s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_mapping/share/diff_amr_mapping/package.xml
+[0.299s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_mapping

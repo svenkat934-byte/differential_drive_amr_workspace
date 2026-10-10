@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4adfe178af6308b68ba6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "diff_amr_msgs__py",
+					"jsonFile" : "directory-diff_amr_msgs__py-dfc3a82256f5dcac89b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/saivenkat/diff_amr_ws/build/diff_amr_msgs/diff_amr_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "diff_amr_msgs__rs",
+					"jsonFile" : "directory-diff_amr_msgs__rs-b236041ae5de169e586b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/saivenkat/diff_amr_ws/build/diff_amr_msgs/diff_amr_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "diff_amr_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_diff_amr_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_diff_amr_msgs_egg-6502223ef2fa76140429.json",
+					"name" : "ament_cmake_python_build_diff_amr_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_diff_amr_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_diff_amr_msgs-9e699f20a118d30deab2.json",
+					"name" : "ament_cmake_python_copy_diff_amr_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs-6cc1bb527a79a10dbf9e.json",
+					"name" : "diff_amr_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__cpp-b4af5392af211be61300.json",
+					"name" : "diff_amr_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "diff_amr_msgs__py::@1c4e533d5342edca9c71",
+					"jsonFile" : "target-diff_amr_msgs__py-fb44f37b8af96f2e184d.json",
+					"name" : "diff_amr_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_generator_c-6262d0b52ac73f4e5613.json",
+					"name" : "diff_amr_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_generator_py-08f78a76d58cfbc3a032.json",
+					"name" : "diff_amr_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_generator_type_description-5497790dddc2dd722e27.json",
+					"name" : "diff_amr_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_typesupport_c-08e9822f8d5773d8dbe7.json",
+					"name" : "diff_amr_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_typesupport_cpp-a9f1e730b33838551435.json",
+					"name" : "diff_amr_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_typesupport_fastrtps_c-3ce068538e9fd918615f.json",
+					"name" : "diff_amr_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_typesupport_fastrtps_cpp-73faffd905ae6604a5f9.json",
+					"name" : "diff_amr_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_typesupport_introspection_c-b972daf76b67ea553b95.json",
+					"name" : "diff_amr_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs__rosidl_typesupport_introspection_cpp-843fbe1abaa5499cea01.json",
+					"name" : "diff_amr_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "diff_amr_msgs__rs::@d015e1cca1177f73bc6e",
+					"jsonFile" : "target-diff_amr_msgs__rs-4a236a590e95f00ef138.json",
+					"name" : "diff_amr_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs_s__rosidl_typesupport_c-c93361a03583a8570c7c.json",
+					"name" : "diff_amr_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs_s__rosidl_typesupport_fastrtps_c-435b2fed886d4d11f6c2.json",
+					"name" : "diff_amr_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs_s__rosidl_typesupport_introspection_c-9af722fdd5618acd4dfe.json",
+					"name" : "diff_amr_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "diff_amr_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-diff_amr_msgs_uninstall-82686108db15b658df0b.json",
+					"name" : "diff_amr_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4b306806ebe0788e4e5c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/saivenkat/diff_amr_ws/build/diff_amr_msgs",
+		"source" : "/home/saivenkat/diff_amr_ws/src/diff_amr_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

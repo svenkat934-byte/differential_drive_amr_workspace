@@ -1,0 +1,40 @@
+[0.210s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_utils -- -j12 -l12
+[0.267s] Built target ament_cmake_python_copy_diff_amr_utils
+[0.538s] running egg_info
+[0.540s] writing diff_amr_utils.egg-info/PKG-INFO
+[0.540s] writing dependency_links to diff_amr_utils.egg-info/dependency_links.txt
+[0.540s] writing top-level names to diff_amr_utils.egg-info/top_level.txt
+[0.596s] reading manifest file 'diff_amr_utils.egg-info/SOURCES.txt'
+[0.596s] writing manifest file 'diff_amr_utils.egg-info/SOURCES.txt'
+[0.633s] Built target ament_cmake_python_build_diff_amr_utils_egg
+[0.802s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_utils -- -j12 -l12
+[0.802s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_utils
+[0.808s] -- Install configuration: ""
+[0.808s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/environment/pythonpath.sh
+[0.808s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/environment/pythonpath.dsv
+[0.808s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils-0.0.0-py3.12.egg-info
+[0.808s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.809s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.809s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils-0.0.0-py3.12.egg-info/PKG-INFO
+[0.809s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils-0.0.0-py3.12.egg-info/top_level.txt
+[0.809s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils
+[0.810s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils/__init__.py
+[0.810s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils/safety_stop.py
+[0.839s] Listing '/home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/python3.12/site-packages/diff_amr_utils'...
+[0.845s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/lib/diff_amr_utils/safety_stop.py
+[0.846s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/ament_index/resource_index/package_run_dependencies/diff_amr_utils
+[0.846s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/ament_index/resource_index/parent_prefix_path/diff_amr_utils
+[0.846s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/environment/ament_prefix_path.sh
+[0.848s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/environment/ament_prefix_path.dsv
+[0.848s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/environment/path.sh
+[0.848s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/environment/path.dsv
+[0.848s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/local_setup.bash
+[0.848s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/local_setup.sh
+[0.848s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/local_setup.zsh
+[0.848s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/local_setup.dsv
+[0.849s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.dsv
+[0.849s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/ament_index/resource_index/packages/diff_amr_utils
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/cmake/diff_amr_utilsConfig.cmake
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/cmake/diff_amr_utilsConfig-version.cmake
+[0.850s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_utils/share/diff_amr_utils/package.xml
+[0.852s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_utils

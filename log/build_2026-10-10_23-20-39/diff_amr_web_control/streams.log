@@ -1,0 +1,24 @@
+[0.054s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_web_control -- -j12 -l12
+[0.367s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/saivenkat/diff_amr_ws/build/diff_amr_web_control -- -j12 -l12
+[0.375s] Invoking command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_web_control
+[0.386s] -- Install configuration: ""
+[0.386s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/web
+[0.386s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/web/app.js
+[0.386s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/web/index.html
+[0.386s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/web/style.css
+[0.386s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/ament_index/resource_index/package_run_dependencies/diff_amr_web_control
+[0.387s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/ament_index/resource_index/parent_prefix_path/diff_amr_web_control
+[0.387s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/environment/ament_prefix_path.sh
+[0.387s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/environment/ament_prefix_path.dsv
+[0.387s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/environment/path.sh
+[0.387s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/environment/path.dsv
+[0.387s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/local_setup.bash
+[0.388s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/local_setup.sh
+[0.388s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/local_setup.zsh
+[0.388s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/local_setup.dsv
+[0.388s] -- Installing: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.dsv
+[0.388s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/ament_index/resource_index/packages/diff_amr_web_control
+[0.388s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/cmake/diff_amr_web_controlConfig.cmake
+[0.389s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/cmake/diff_amr_web_controlConfig-version.cmake
+[0.389s] -- Up-to-date: /home/saivenkat/diff_amr_ws/install/diff_amr_web_control/share/diff_amr_web_control/package.xml
+[0.390s] Invoked command in '/home/saivenkat/diff_amr_ws/build/diff_amr_web_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saivenkat/diff_amr_ws/install/diff_amr_scripts:/home/saivenkat/diff_amr_ws/install/diff_amr_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/saivenkat/diff_amr_ws/build/diff_amr_web_control
